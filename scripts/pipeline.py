@@ -107,4 +107,4 @@ if __name__ == "__main__":
         processed_df = clean_data(raw_df)
         # check data after cleaning
         generate_report(processed_df)
-        save_data(processed_df)
+        save_data(processed_df, "test_data.parquet")

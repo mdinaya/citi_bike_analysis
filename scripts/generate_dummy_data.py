@@ -1,3 +1,9 @@
+"""
+Docstring for citi_bike_analysis.scripts.generate_dummy_data
+Generate Dummy Data to Test Pipeline
+Save everything to
+"""
+
 import pandas as pd
 import os
 
