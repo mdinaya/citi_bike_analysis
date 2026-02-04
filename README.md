@@ -47,6 +47,7 @@ This ensures the analysis remains **statistically robust** while computationally
 
 ## Statistical Methodology
 ![alt text](graphs/histogram.png)
+
 Trip duration is **heavily right-skewed** with a long right tail. Because this violates the assumptions of parametric tests, a **Mann–Whitney U test** was used.
 
 The probability that the observed difference occurred by random chance is **effectively zero** (*p* ≈ 0).
